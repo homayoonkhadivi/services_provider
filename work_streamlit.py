@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 from PIL import Image
 import os
 
@@ -75,7 +75,7 @@ if option == 'Swimming Lessons':
             st.image(swimming_image, caption='Learn to Swim', use_column_width=True)
         with col2:
             st.write("""
-                I was a memeber of Iran's National Swimming Team for 8 years, and I had two national records holder for a long time in backstroke. 
+                I was a member of Iran's National Swimming Team for 8 years, and I held two national records in backstroke for a long time.
                 I offer comprehensive swimming lessons for all skill levels. Whether you are a beginner or looking to improve your technique, I can help you achieve your swimming goals.
                 
                 **Topics Covered:**
@@ -83,7 +83,7 @@ if option == 'Swimming Lessons':
                 - Advanced strokes
                 - Breathing techniques
                 - Safety tips
-                - hydrotherapy: is used to treat aches and pains including headaches, muscle pain, migraines and toothache
+                - Hydrotherapy: Used to treat aches and pains including headaches, muscle pain, migraines, and toothache
             """)
 elif option == 'Data Science Teaching':
     st.header("Data Science Teaching")
@@ -97,10 +97,17 @@ elif option == 'Data Science Teaching':
                 
                 **Topics Covered:**
                 - Introduction to Data Science
-                - Data Analysis with Python
+                - Data Analysis with Python, SQL
                 - Machine Learning
                 - Data Visualization
                 - Deep Learning
+                - Machine Learning on Production
+                - MLOps Concepts
+                - Deploy ML Models
+
+                **About Me:**
+                - [Kaggle Expert](https://www.kaggle.com/homayoonkhadivi) in notebooks and datasets
+                - [Professional AI/ML Scientist](https://www.linkedin.com/in/homayoon-khadivi/)
             """)
 elif option == 'Visa & Assessment Advice':
     st.header("Australia Visa & Assessment Advice")

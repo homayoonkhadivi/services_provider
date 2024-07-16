@@ -94,6 +94,14 @@ elif option == 'Data Science Teaching':
         with col2:
             st.write("""
                 I provide data science teaching that covers a wide range of topics, from the basics to advanced machine learning techniques. If you are looking to start a career in data science or enhance your skills, I can guide you through the process.
+                I can teach you in different programming languages, software tools, and ML/ AI Concepts such as:
+
+                •Cloud Technology: AWS (SageMaker Studio, AI Services)
+                •Programming languages and libraries: Python (Pandas, Numpy, Matplotlib, Plotly, Seaborn, Sci-Kit Learn), R Studio, PostgreSQL, MySQL, Docker, SQLAlchemy, Tensorflow, Keras, Pytorch, Object Oriented Programming (OOP), HTML, CSS, StreamLit, FastAPI, MLFlow, CML CI/CD 
+                •Tools: Microsoft Power BI, Tableau, SSIS, ETL Processes, , MS Office Suite
+                •Computer Vision: CNN & Transfer Learning to apply Artificial Intelligence in Medical Diagnosis
+                •Natural Language Processing NLP: Natural Language Understanding, Language Models like BERT, T5, GPT-2and GPT-3, Named Entity Recognition, Topic Modelling, Sentiment Analysis, Document Similarity, Text Classification, Text Summarization
+                •Statistical Analysis: Bayesian Analysis, A/B testing, Regression, Time Series, Hypothesis testing, Sampling, T-Test, ANOVA
                 
                 **Topics Covered:**
                 - Introduction to Data Science

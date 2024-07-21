@@ -3,7 +3,7 @@ from PIL import Image
 import os
 
 # Directory path
-image_dir = '/mnt/d/perosnal_project/images'
+image_dir = './images'
 
 # Function to load images safely
 def load_image(image_path):

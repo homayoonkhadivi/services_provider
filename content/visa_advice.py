@@ -19,4 +19,5 @@ def display_visa_advice():
     - Over 50 successful CDR assessments in all engineering fields with no comments
     - Guidance on selecting the most suitable visa based on your individual circumstances
 
-    With expertise and experience in the field, I can address all your concerns and guide you through the complexities of the visa and assessment process. Whether you're an engineer seeking recognition or an individual looking to migrate to Australia, I can
+    With expertise and experience in the field, I can address all your concerns and guide you through the complexities of the visa and assessment process. Whether you're an engineer seeking recognition or an individual looking to migrate to Australia, I can offer personalized advice to ensure we achieve your desired outcomes.
+    """)

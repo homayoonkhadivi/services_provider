@@ -22,7 +22,11 @@ def display_get_social_together():
         'Cold Bath',
         'Swimming in Cold Ocean',
         'Playing Video Games',
-        'Board Games'
+        'Board Games',
+        'Music Festival',
+        'Techno & House Party',
+        'Modern Art Exhibition',
+        'Concert & Theater'
     ]
 
     # Create checkboxes for each activity with a unique key

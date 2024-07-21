@@ -309,7 +309,8 @@ elif option == 'Tax Return Advice':
 elif option == 'Books & Podcasts for Personal Growth':
     st.header("Books & Podcasts for Personal Growth")
     st.write("""
-    Explore recommended books and podcasts to enhance your personal growth journey.
+    My Reading Journey 📚
+    I wasn’t always a fan of reading. In fact, I used to find it quite challenging to sit down with a book. However, something changed, and now, I make it a point to read a book every month. This simple habit has had a profound impact on my life, offering new perspectives and valuable lessons. I’m excited to share some of the books that have transformed my mindset and growth.
     """)
     
     # Display recommended books as a table

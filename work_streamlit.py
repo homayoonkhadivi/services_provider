@@ -323,7 +323,7 @@ elif option == 'Books & Podcasts for Personal Growth':
     st.subheader("Recommended Podcasts")
     podcasts_df = pd.DataFrame(recommended_podcasts)
     st.write(podcasts_df)
-     st.write("### Share Your Book Recommendations")
+    st.write("### Share Your Book Recommendations")
     with st.form("recommendation_form"):
         title = st.text_input("Book Title")
         author = st.text_input("Author")

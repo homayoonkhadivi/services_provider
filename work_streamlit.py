@@ -75,15 +75,23 @@ if option == 'Swimming Lessons':
             st.image(swimming_image, caption='Learn to Swim', use_column_width=True)
         with col2:
             st.write("""
-                I was a member of Iran's National Swimming Team for 8 years, and I held two national records in backstroke for a long time.
-                I offer comprehensive swimming lessons for all skill levels. Whether you are a beginner or looking to improve your technique, I can help you achieve your swimming goals.
-                
-                **Topics Covered:**
+            ### Introduction:
+                    "I am a professional swimmer, swim coach, international lifeguard, and water therapist. Having been a member of Iran's National Swimming Team for 8 years and holding two national records in backstroke for a significant period,
+                     I offer comprehensive swimming lessons for students of all skill levels.
+
+             #### Services Offered:
+                - Swimming Lessons
+
+            **Topics Covered**
                 - Basic swimming techniques
                 - Advanced strokes
                 - Breathing techniques
                 - Safety tips
-                - Hydrotherapy: Used to treat aches and pains including headaches, muscle pain, migraines, and toothache
+            **Hydrotherapy Sessions**
+                - **Benefits:**
+            Treat aches and pains such as headaches, muscle pain, migraines, and toothaches
+            Contact Information:
+            Feel free to reach out if you have any questions or need more information!
             """)
 elif option == 'Data Science Teaching':
     st.header("Data Science Teaching")

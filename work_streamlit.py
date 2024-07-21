@@ -145,16 +145,6 @@ elif option == 'Data Science Teaching':
             - Text Classification
             - Text Summarization
 
-            **Statistical Analysis:**
-            - Bayesian Analysis
-            - A/B Testing
-            - Regression
-            - Time Series
-            - Hypothesis Testing
-            - Sampling
-            - T-Test
-            - ANOVA
-
             **Teaching Topics:**
             - Introduction to Data Science
             - Data Analysis with Python, SQL
@@ -206,19 +196,15 @@ elif option == 'Books & Podcasts for Personal Growth':
     Explore recommended books and podcasts to enhance your personal growth journey.
     """)
     
-    # Display recommended books
+    # Display recommended books as a table
     st.subheader("Recommended Books")
-    for book in recommended_books:
-        st.write(f"**{book['title']}** by {book['author']}")
-        st.write(f"*Summary:* {book['summary']}")
-        st.write("---")
+    books_df = pd.DataFrame(recommended_books)
+    st.write(books_df)
 
-    # Display recommended podcasts
+    # Display recommended podcasts as a table
     st.subheader("Recommended Podcasts")
-    for podcast in recommended_podcasts:
-        st.write(f"**{podcast['title']}** hosted by {podcast['host']}")
-        st.write(f"*Summary:* {podcast['summary']}")
-        st.write("---")
+    podcasts_df = pd.DataFrame(recommended_podcasts)
+    st.write(podcasts_df)
 
 # Footer
 #st.write("""

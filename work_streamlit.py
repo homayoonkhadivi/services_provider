@@ -92,8 +92,12 @@ if option == 'Swimming Lessons':
             - **Benefits:**
             Treat aches and pains such as headaches, muscle pain, migraines, and toothaches
 
-            **Contact Information:**
+           **Contact Information:**
             Feel free to reach out if you have any questions or need more information!
+
+            **Follow Me:**
+            - [Facebook](https://www.facebook.com/homayoon.khadivi.7) 
+            - [Instagram](https://www.instagram.com/homayoon.khadivi/)
             """)
 elif option == 'Data Science Teaching':
     st.header("Data Science Teaching")

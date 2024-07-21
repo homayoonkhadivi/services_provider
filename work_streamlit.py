@@ -107,15 +107,53 @@ elif option == 'Data Science Teaching':
             st.image(datascience_image, caption='Learn Data Science', use_column_width=True)
         with col2:
             st.write("""
-            I provide data science teaching that covers a wide range of topics, from the basics to advanced machine learning techniques. If you are looking to start a career in data science or enhance your skills, I can guide you through the process.
-            I can teach you in different programming languages, software tools, and ML/AI concepts such as:
+            Are you ready to embark on a journey into the world of data science? Whether you're a beginner looking to learn the basics or an experienced professional seeking to enhance your skills, I offer comprehensive data science teaching that covers a wide array of topics, from fundamental concepts to advanced machine learning techniques.
 
-            - Cloud Technology: AWS (SageMaker Studio, AI Services)
-            - Programming languages and libraries: Python (Pandas, Numpy, Matplotlib, Plotly, Seaborn, Sci-Kit Learn), R Studio, PostgreSQL, MySQL, Docker, SQLAlchemy, TensorFlow, Keras, PyTorch, Object-Oriented Programming (OOP), HTML, CSS, Streamlit, FastAPI, MLFlow, CML CI/CD
-            - Tools: Microsoft Power BI, Tableau, SSIS, ETL Processes, MS Office Suite
-            - Computer Vision: CNN & Transfer Learning to apply Artificial Intelligence in Medical Diagnosis
-            - Natural Language Processing (NLP): Natural Language Understanding, Language Models like BERT, T5, GPT-2, and GPT-3, Named Entity Recognition, Topic Modelling, Sentiment Analysis, Document Similarity, Text Classification, Text Summarization
-            - Statistical Analysis: Bayesian Analysis, A/B Testing, Regression, Time Series, Hypothesis Testing, Sampling, T-Test, ANOVA
+            **Topics Covered:**
+
+            **Programming Languages and Libraries:**
+            - Python (Pandas, Numpy, Matplotlib, Plotly, Seaborn, Sci-Kit Learn)
+            - R Studio
+            - PostgreSQL, MySQL
+            - Docker, SQLAlchemy
+            - TensorFlow, Keras, PyTorch
+            - Object-Oriented Programming (OOP)
+            - HTML, CSS
+            - Streamlit, FastAPI
+            - MLFlow, CML CI/CD
+
+            **Tools:**
+            - Microsoft Power BI
+            - Tableau
+            - SSIS
+            - ETL Processes
+            - MS Office Suite
+
+            **Cloud Technology:**
+            - AWS (SageMaker Studio, AI Services)
+
+            **Computer Vision:**
+            - CNN & Transfer Learning for applying Artificial Intelligence in Medical Diagnosis
+
+            **Natural Language Processing (NLP):**
+            - Natural Language Understanding
+            - Language Models like BERT, T5, GPT-2, and GPT-3
+            - Named Entity Recognition
+            - Topic Modelling
+            - Sentiment Analysis
+            - Document Similarity
+            - Text Classification
+            - Text Summarization
+
+            **Statistical Analysis:**
+            - Bayesian Analysis
+            - A/B Testing
+            - Regression
+            - Time Series
+            - Hypothesis Testing
+            - Sampling
+            - T-Test
+            - ANOVA
 
             **Teaching Topics:**
             - Introduction to Data Science
@@ -125,7 +163,7 @@ elif option == 'Data Science Teaching':
             - Deep Learning
             - Machine Learning in Production
             - MLOps Concepts
-            - Deploy ML Models
+            - Deploying ML Models
 
             **About Me:**
             - [Kaggle Expert](https://www.kaggle.com/homayoonkhadivi) in notebooks and datasets

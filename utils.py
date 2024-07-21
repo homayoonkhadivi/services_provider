@@ -146,13 +146,75 @@ recommended_podcasts = [
     {
         'title': 'The Tim Ferriss Show',
         'host': 'Tim Ferriss',
-        'summary': 'Interviews with top performers across various fields, exploring their habits and routines.'
+        'summary': 'Interviews with top performers across various fields, exploring their habits and routines.',
+        'tag': 'Personal Development'
     },
     {
         'title': 'The Tony Robbins Podcast',
         'host': 'Tony Robbins',
-        'summary': 'Discussions on personal development, leadership, and achieving success in life.'
+        'summary': 'Discussions on personal development, leadership, and achieving success in life.',
+        'tag': 'Personal Development'
     },
-    # Add more recommended podcasts as needed
+    # New Podcasts
+    {
+        'title': 'The Mindset Mentor',
+        'host': 'Rob Dial',
+        'summary': 'Provides actionable strategies to help you unlock your potential and overcome mental blocks.',
+        'tag': 'Personal Development'
+    },
+    {
+        'title': 'All in the Mind',
+        'host': 'Rafael Epstein',
+        'summary': 'Explores the fascinating world of psychology and mental health.',
+        'tag': 'Psychology'
+    },
+    {
+        'title': 'Ted Talks Daily',
+        'host': 'Various',
+        'summary': 'Daily episodes featuring some of the world’s leading thinkers and doers sharing their insights and ideas.',
+        'tag': 'Inspirational'
+    },
+    {
+        'title': 'The Science of Everything',
+        'host': 'Various',
+        'summary': 'Explains complex scientific topics in a way that’s accessible and engaging.',
+        'tag': 'Science'
+    },
+    {
+        'title': 'Stuff You Should Know',
+        'host': 'Josh Clark & Chuck Bryant',
+        'summary': 'Explains how things work and explores fascinating topics in a conversational manner.',
+        'tag': 'Education'
+    },
+    {
+        'title': 'The Art of Communication',
+        'host': 'Various',
+        'summary': 'Provides insights and strategies for improving communication skills.',
+        'tag': 'Communication'
+    },
+    {
+        'title': 'Huberman Lab',
+        'host': 'Andrew Huberman',
+        'summary': 'Shares cutting-edge science and practical tools to improve mental and physical health.',
+        'tag': 'Health'
+    },
+    {
+        'title': 'Gold Minds with Kevin Hart',
+        'host': 'Kevin Hart',
+        'summary': 'Kevin Hart interviews successful individuals from various fields to uncover their secrets to success.',
+        'tag': 'Personal Development'
+    },
+    {
+        'title': 'The Joe Rogan Experience',
+        'host': 'Joe Rogan',
+        'summary': 'Features long-form conversations with a diverse range of guests on a variety of topics.',
+        'tag': 'General'
+    },
+    {
+        'title': 'The Lex Fridman Podcast',
+        'host': 'Lex Fridman',
+        'summary': 'Interviews with experts and thought leaders in artificial intelligence, technology, and more.',
+        'tag': 'Technology'
+    }
 ]
 

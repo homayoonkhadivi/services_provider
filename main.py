@@ -9,6 +9,7 @@ from content.datascience import display_datascience
 from content.tax_advice import display_tax_advice
 from content.visa_advice import display_visa_advice
 from content.books_podcasts import display_books_podcasts
+from content.get_social_together import display_get_social_together
 
 # Directory path for images
 image_dir = './images'
@@ -36,13 +37,13 @@ st.title("Welcome to My Teaching App")
 
 # Description
 st.write("""
-    I offer lessons in five exciting areas: Swimming, Data Science, Tax Return Advice, Australia Visa Advice & Assessment, and Books & Podcasts for Personal Growth. Choose one to get started!
+    I offer lessons in five exciting areas: Swimming, Data Science, Tax Return Advice, Australia Visa Advice & Assessment, Books & Podcasts for Personal Growth, and Get Social Together. Choose one to get started!
 """)
 
 # Options for the user to choose
 option = st.selectbox(
     'What would you like to learn?',
-    ('Select an option', 'Swimming Lessons', 'Data Science Teaching', 'Tax Return Advice', 'Visa & Assessment Advice', 'Books & Podcasts for Personal Growth')
+    ('Select an option', 'Swimming Lessons', 'Data Science Teaching', 'Tax Return Advice', 'Visa & Assessment Advice', 'Books & Podcasts for Personal Growth', 'Get Social Together')
 )
 
 # Display content based on the user's choice
@@ -56,3 +57,5 @@ elif option == 'Tax Return Advice':
     display_tax_advice()
 elif option == 'Books & Podcasts for Personal Growth':
     display_books_podcasts()
+elif option == 'Get Social Together':
+    display_get_social_together()

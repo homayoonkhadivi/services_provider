@@ -323,6 +323,25 @@ elif option == 'Books & Podcasts for Personal Growth':
     st.subheader("Recommended Podcasts")
     podcasts_df = pd.DataFrame(recommended_podcasts)
     st.write(podcasts_df)
+     st.write("### Share Your Book Recommendations")
+    with st.form("recommendation_form"):
+        title = st.text_input("Book Title")
+        author = st.text_input("Author")
+        summary = st.text_area("Summary")
+        tag = st.selectbox("Tag", ["Personal Development", "Memoir", "Self-Help", "Other"])
+        submit_button = st.form_submit_button("Submit")
+
+        if submit_button:
+            # Append new book recommendation to the list
+            recommended_books.append({
+                'title': title,
+                'author': author,
+                'summary': summary,
+                'tag': tag
+            })
+            # Optionally, update the display
+            st.write("Thank you for your recommendation!")
+            st.write(pd.DataFrame(recommended_books))
 
 # Footer
 #st.write("""

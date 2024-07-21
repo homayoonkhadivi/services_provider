@@ -33,11 +33,11 @@ datascience_image = load_image(datascience_image_path)
 visa_cdr_image = load_image(visa_cdr_image_path)
 
 # Title of the app
-st.title("Welcome to My Teaching App")
+st.title("Welcome to My Exciting Life Journey App! 🎉")
 
 # Description
 st.write("""
-    I offer lessons in five exciting areas: Swimming, Data Science, Tax Return Advice, Australia Visa Advice & Assessment, Books & Podcasts for Personal Growth, and Get Social Together. Choose one to get started!
+    I offer servicies and activitis in six exciting areas: Swimming, Data Science, Tax Return Advice, Australia Visa Advice & Assessment, Books & Podcasts for Personal Growth, and Get Social Together. Choose one to get started!
 """)
 
 # Options for the user to choose

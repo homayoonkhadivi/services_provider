@@ -38,5 +38,5 @@ def display_get_social_together():
     # If any activities are selected, provide Facebook and Instagram links
     if selected_activities:
         st.write("Great choices! If you want to connect and make friends, feel free to reach me out on social media:")
-        st.write("**Facebook:** [Your Facebook Link](https://www.facebook.com/homayoon.khadivi.7)")
-        st.write("**Instagram:** [Your Instagram Link](https://www.instagram.com/homayoon.khadivi/)")
+        st.write("**Facebook:** [Facebook](https://www.facebook.com/homayoon.khadivi.7)")
+        st.write("**Instagram:** [Instagram](https://www.instagram.com/homayoon.khadivi/)")

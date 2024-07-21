@@ -181,6 +181,6 @@ elif option == 'Books & Podcasts for Personal Growth':
         st.write("---")
 
 # Footer
-st.write("""
-Feel free to reach out if you have any questions or need more information!
-""")
+#st.write("""
+#Feel free to reach out if you have any questions or need more information!
+#""")

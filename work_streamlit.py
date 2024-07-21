@@ -96,8 +96,8 @@ if option == 'Swimming Lessons':
             Feel free to reach out if you have any questions or need more information!
 
             **Follow Me:**
-            - [Facebook](https://www.facebook.com/homayoon.khadivi.7) 
-            - [Instagram](https://www.instagram.com/homayoon.khadivi/)
+            - 📘[Facebook](https://www.facebook.com/homayoon.khadivi.7) 
+            - 📸[Instagram](https://www.instagram.com/homayoon.khadivi/)
             """)
 elif option == 'Data Science Teaching':
     st.header("Data Science Teaching")
